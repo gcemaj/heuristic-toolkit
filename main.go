@@ -173,7 +173,7 @@ func main() {
 		})
 	}
 
-	ac := toolkit.NewAntColonyOptimization(10, ants, 1, 3, graph)
+	ac := toolkit.NewAntColonyOptimization(110, ants, 1, 3, graph)
 
 	bestSolution := ac.Run()
 
